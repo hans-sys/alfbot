@@ -31,7 +31,7 @@ const { BotName, tanggal, waktu, instagram, whatsapp, kapanbotaktif: ontime } = 
 
 const
 {
-   WAConnection,
+   WAConnection,h
    MessageType,
    Presence,
    MessageOptions,
