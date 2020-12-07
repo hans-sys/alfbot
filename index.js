@@ -5,7 +5,7 @@
 */
 
 /**
- * REFACTORING CODE by Ibnusyawall (https://github.com/ibnusyawall)
+ * REFACTORING CODE by Hans (https://github.com/hans-sys)
  * Don't delete this comment!
  */
 
@@ -19,9 +19,9 @@ const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Jul
 const bulan = arrayBulan[moment().format('MM') - 1]
 
 const config = {
-    BotName: 'ALF BOT',
-    instagram: 'https://instagram.com/aditiaalfians',
-    whatsapp: 'wa.me/6285799496179',
+    BotName: 'Hans BOT',
+    instagram: 'https://instagram.com/hansmlbbyt',
+    whatsapp: 'wa.me/6282285537176',
     kapanbotaktif: '24 JAM',
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
@@ -41,7 +41,7 @@ const
    ReconnectMode,
    ProxyAgent,
    waChatKey,
-} = require("@adiwajshing/baileys")
+} = require("@hansmlbbyt/baileys")
 
 const {
     menu,
