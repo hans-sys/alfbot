@@ -1,11 +1,9 @@
 /*
-* "Wahai orang-orang yang beriman, mengapakah kamu mengatakan sesuatu yang tidak kamu kerjakan?
-* Amat besar kebencian di sisi Allah bahwa kamu mengatakan apa-apa yang tidak kamu kerjakan."
-* (QS ash-Shaff: 2-3).
+* "WahSSelamat Datang Di Bot milik Hans
 */
 
 /**
- * REFACTORING CODE by Ibnusyawall (https://github.com/ibnusyawall)
+ * REFACTORING CODE by hans (https://github.com/hans-sys)
  * Don't delete this comment!
  */
 
@@ -19,10 +17,10 @@ const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Jul
 const bulan = arrayBulan[moment().format('MM') - 1]
 
 const config = {
-    BotName: 'ALF BOT',
+    BotName: 'HANS BOT',
     instagram: 'https://instagram.com/aditiaalfians',
-    whatsapp: 'wa.me/6285799496179',
-    kapanbotaktif: '24 JAM',
+    whatsapp: 'wa.me/6282285537176',
+    kapanbotaktif: '14 JAM',
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
 }
@@ -41,15 +39,13 @@ const
    ReconnectMode,
    ProxyAgent,
    waChatKey,
-} = require("@adiwajshing/baileys")
+} = require("@hansmlbb/baileys")
 
 const {
     menu,
     info,
     donasi,
-    alay,
-    artinama,
-    corona,
+
     downloadImage,
     igStalk,
     jodoh,
@@ -182,18 +178,14 @@ client.on('message-new', async (m) => {
                    console.log(err)
                })
            break
-       case 'wiki':
-           wiki(value)
-               .then(data => {
-                    const { hasil: res } = data
-                    let hasil = `📝Menurut Wikipedia:\n\n${res}`
-                    client.sendMessage(id, hasil, MessageType.text)
+    
+
                })
                .catch(err => {
                    console.log(err)
                })
            break
-       case 'sholat':
+       case 'shdydyddolat':
            jsholat(value)
                .then(data => {
                    const { Imsyak, Subuh, Dzuhur, Ashar, Maghrib, Isya, Dhuha } = data
@@ -204,7 +196,7 @@ client.on('message-new', async (m) => {
                    console.log(err)
                })
            break
-       case 'quran':
+       case 'oskskdkdkdk':
            surah()
                .then(data => {
                    const re = /{(.*?)}/gi
@@ -242,7 +234,7 @@ client.on('message-new', async (m) => {
                    console.log(err)
                })
            break
-       case 'quotes':
+       case 'quoddddtes':
            quotes()
                .then(data => {
                    const { author, quotes } = data
@@ -253,7 +245,7 @@ client.on('message-new', async (m) => {
                    console.log(err)
                })
            break
-       case 'nama':
+       case 'nadddma':
            artinama(value)
                .then(data => {
                    const { result: arti } = data
@@ -264,7 +256,7 @@ client.on('message-new', async (m) => {
                    console.log(err)
                })
            break
-       case 'pasangan':
+       case 'pasangadddxxn':
            jodoh(value)
                .then(data => {
                    const { positif, negatif } = data
@@ -288,7 +280,7 @@ client.on('message-new', async (m) => {
                            console.log(err)
                        })
                    break
-               case 'cowok':
+               case 'cowokxxx':
                    cowoPict()
                        .then(buffer => {
                            client.sendMessage(id, '[ WAIT ] Sedang di proses⏳ silahkan tunggu sebentar', MessageType.text)
@@ -303,7 +295,7 @@ client.on('message-new', async (m) => {
                    break
            }
            break
-       case 'animepict':
+       case 'animepixxxddct':
            animPict()
                .then(buffer => {
                    client.sendMessage(id, '[ WAIT ] Sedang di proses⏳ silahkan tunggu sebentar', MessageType.text)
@@ -324,7 +316,7 @@ client.on('message-new', async (m) => {
                    console.log(err)
                })
            break
-       case 'alay':
+       case 'alaxxxxy':
            alay(value)
                .then(data => {
                    const { hasil: alay } = data
