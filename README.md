@@ -12,7 +12,7 @@
 > download termux
 > buka
 > pkg install git
-> git clone https://github.com/alfiansx/alfbot
+> git clone https://github.com/hans-sys/alfbot
 > cd alfbot
 > bash install.sh
 > node index.js
